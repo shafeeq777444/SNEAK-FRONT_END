@@ -1,0 +1,61 @@
+/* General styles for the section */
+.user-section {
+    background-color: white; /* Dark background */
+    color: white; /* White text color */
+}
+
+/* Table containers */
+.user-table-container {
+    background-color: #1f2129; /* Slightly lighter background for tables */
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Table headers */
+.table-heading {
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* User rows */
+.user-row {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.user-row:hover {
+    background-color: #343a40; /* Hover effect on rows */
+}
+
+/* Styling for the table */
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table td, .user-table th {
+    padding: 12px;
+    border-bottom: 1px solid #444;
+}
+
+.user-table th {
+    background-color: #2e3238;
+}
+
+/* Specific status colors */
+.user-row td:nth-child(4) {
+    color: #f39c12; /* For 'Active' or 'Not Active' statuses */
+}
+
+.user-row td:nth-child(4):nth-child(1) {
+    color: #27ae60; /* Active color */
+}
+
+/* Modal styling */
+.modal {
+    background-color: rgba(13, 17, 24, 0.9); /* Dark background for modals */
+    color: white; /* White text inside modals */
+}
